@@ -1,0 +1,24 @@
+section{
+    background-color: #5A5F8A;
+    /* width: 60rem; */
+}
+
+section img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+section main{
+    padding: 4rem;
+}
+
+section h3 {
+    font-size: 5rem;
+    letter-spacing: .7rem;
+}
+
+section p {
+    font-size: 2rem;
+    padding: 1rem;   
+}
