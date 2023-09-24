@@ -1,3 +1,39 @@
 main section{
     padding: 5rem 15rem;
 }
+
+section{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1850px) {
+    section{
+        transform: translateX(-5rem);
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1447px) {
+    section{
+        transform: translateX(-2.5rem);
+        justify-content: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 1066px) {
+    
+    section{
+        transform: translateX(-1rem);
+        justify-content: center;
+    }
+    
+}
+

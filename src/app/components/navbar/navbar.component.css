@@ -3,3 +3,12 @@ section{
     font-size: 3rem;
     padding: 3rem 5rem;
 }
+
+@media screen and (max-width: 1066px) {
+
+    section{
+        text-align: center;
+    }
+   
+    
+}
